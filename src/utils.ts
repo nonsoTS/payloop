@@ -40,3 +40,13 @@ export const INITIAL_TRANSACTIONS = [
       timestamp: getTimestamp(12)
     }
   ]
+
+
+export interface Transaction {
+  id: number;
+  amount: number;
+  type: string;
+  date: string;
+  status: string;
+  timestamp: number;
+}
